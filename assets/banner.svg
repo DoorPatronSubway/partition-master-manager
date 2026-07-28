@@ -1,0 +1,95 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="55%" stop-color="#0f2038"/>
+      <stop offset="100%" stop-color="#0a1a30"/>
+    </linearGradient>
+    <linearGradient id="diskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0d2138"/>
+    </linearGradient>
+    <linearGradient id="seg1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="seg2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="seg3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="txtGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#bfe9ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+  <circle cx="960" cy="150" r="260" fill="url(#glow)"/>
+
+  <g opacity="0.15" stroke="#3fb6e0" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="200" y1="0" x2="200" y2="360"/>
+    <line x1="400" y1="0" x2="400" y2="360"/>
+    <line x1="600" y1="0" x2="600" y2="360"/>
+    <line x1="800" y1="0" x2="800" y2="360"/>
+    <line x1="1000" y1="0" x2="1000" y2="360"/>
+  </g>
+
+  <g transform="translate(770,60)">
+    <rect x="0" y="0" width="360" height="240" rx="16" fill="url(#diskGrad)" stroke="#2c4a6e" stroke-width="2"/>
+    <rect x="18" y="20" width="324" height="46" rx="8" fill="url(#seg1)" opacity="0.9"/>
+    <text x="180" y="49" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#0a1628" text-anchor="middle" font-weight="bold">C: SYSTEM</text>
+
+    <rect x="18" y="78" width="200" height="46" rx="8" fill="url(#seg2)" opacity="0.9"/>
+    <text x="118" y="107" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#0a1628" text-anchor="middle" font-weight="bold">D: DATA</text>
+
+    <rect x="230" y="78" width="112" height="46" rx="8" fill="#1a3350" stroke="#3fb6e0" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <text x="286" y="107" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#7fd4f0" text-anchor="middle">FREE</text>
+
+    <rect x="18" y="136" width="140" height="46" rx="8" fill="url(#seg3)" opacity="0.9"/>
+    <text x="88" y="165" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#0a1628" text-anchor="middle" font-weight="bold">E:</text>
+
+    <rect x="170" y="136" width="172" height="46" rx="8" fill="#1a3350" stroke="#3fb6e0" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <text x="256" y="165" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#7fd4f0" text-anchor="middle">UNALLOCATED</text>
+
+    <rect x="18" y="194" width="324" height="30" rx="6" fill="#0d2138" stroke="#22d3ee" stroke-width="1"/>
+    <line x1="130" y1="194" x2="130" y2="224" stroke="#22d3ee" stroke-width="2"/>
+    <line x1="250" y1="194" x2="250" y2="224" stroke="#22d3ee" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(970,150)" opacity="0.8">
+    <path d="M0 0 L20 0 L15 -8 L30 8 L15 24 L20 16 L0 16 Z" fill="#22d3ee"/>
+  </g>
+
+  <g stroke="#22d3ee" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M60 300 Q 300 260 500 300" stroke-dasharray="4 6"/>
+  </g>
+
+  <text x="60" y="140" font-family="'Segoe UI', Arial, sans-serif" font-size="66" font-weight="bold" fill="url(#txtGrad)">
+    <tspan x="60" dy="0" textLength="900" lengthAdjust="spacingAndGlyphs">EaseUS Partition Master</tspan>
+    <tspan x="60" dy="74" textLength="620" lengthAdjust="spacingAndGlyphs">Full Version Download</tspan>
+  </text>
+
+  <text x="60" y="270" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#a9d8f0" textLength="980" lengthAdjust="spacingAndGlyphs">
+    No more manual partitioning — just run and go
+  </text>
+
+  <g transform="translate(60,290)" opacity="0.9">
+    <rect x="0" y="0" width="14" height="14" rx="3" fill="#22d3ee"/>
+    <rect x="20" y="0" width="14" height="14" rx="3" fill="#34d399"/>
+    <rect x="40" y="0" width="14" height="14" rx="3" fill="#818cf8"/>
+  </g>
+</svg>
